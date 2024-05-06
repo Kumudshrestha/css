@@ -1,0 +1,35 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+p{
+    color: black;
+    text-align: center;
+}
+
+.background{
+    height: 250px;
+    padding-top: 15px;
+    background-color: pink;
+}
+
+.monkey{
+    text-align: center;
+}
+
+.title{
+    color: orange;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.button{
+    background-color: red;
+    border: none;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
