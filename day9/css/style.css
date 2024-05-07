@@ -1,0 +1,27 @@
+.card{
+    width: 200px;
+    height: auto;
+    background-color: rgb(189, 225, 240);
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.gap{
+    padding-bottom: 8px;
+}
+
+.img{
+    width:200px;
+    height:auto;
+}
