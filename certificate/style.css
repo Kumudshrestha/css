@@ -5,6 +5,7 @@
    
 .certificate {
     position: relative;
+    height: 10000px;
 }
 
 .name {
@@ -41,4 +42,18 @@
     position: absolute;
     top: 520px;
     left: 550px;
+}
+
+.chat {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(184, 191, 194);
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
