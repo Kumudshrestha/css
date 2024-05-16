@@ -1,21 +1,54 @@
+/* Css Boilerplate / Default */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Reusable css */
+.container{
+    padding :0px 80px;
+}
+
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.line-height {
+    line-height: 1.5;
+}
+
+
+/* Topbar */
 .topbar {
-    background-color: blue;
+    background-color: #264788;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 80px;
 }
 
 .button {
-    border: 2px solid white;
-    border-radius: 4px;
-    background-color: blue;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 8px 16px;
     color: white;
-    margin-right: 80px;
 }
 
-.contact-links a,span{
+.student-portal{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-links a,
+.student-portal span{
     text-decoration: none;
     color: white;
 }
@@ -23,4 +56,234 @@
 .student-portal a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 14px;
+}
+
+.logo img {
+    height: 46px;
+}
+
+.search-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+}
+
+.admission button{
+    background-color: #dd4a2a;
+    color: white;
+    border: 2px solid #dd4a2a;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.search input {
+    width: 700px;
+    height: 36px;
+    border: .5px solid rgb(209, 195, 195);
+    outline: none;
+    padding-left: 12px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 16px;
+}
+
+.search-button {
+    height: 36px;
+    width: 36px;
+    font-size: 16px;
+    background-color: white;
+    border: .5px solid rgb(212, 206, 206);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e9ecf3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inspire{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.community{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.connect{
+    display: flex;
+    gap: 10px;
+}
+
+.connect .whatsapp {
+    background-color: #00a884;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.connect .facebook {
+    background-color: #264788;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.hero-image img{
+    height: 400px;
+}
+
+.inspire h1 {
+    color: #264788;
+    font-size: 45px;
+}
+
+.inspire p {
+    font-size: 20px;
+}
+
+.community h1 {
+    color: #444444;
+    font-size: 30px;
+}
+
+.community p {
+    font-size: 20px;
+}
+
+/* Placement     */
+.placement-section {
+    text-align: center;
+}
+
+.placement-section h1 {
+font-size: 35px;
+color: #212529;
+}
+
+.placement-section p {
+    font-size: 18px;
+}
+
+.marquee-image img{
+    height: 150px;
+    width: 150px;
+    padding-right:80px ;
+    padding-top: 20px;
+}
+
+/* about section */
+.about {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: #f8f9fa;
+}
+
+.why {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about button {
+    background-color:#264788;
+    height: 40px;
+    font-size: 16px;}
+
+/* upcoming classes */
+.upcoming-classes {
+    font-size: 23px;
+}
+
+.upcoming-classes button {
+    color: #264788;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+   
+}
+
+/* card design */
+.card {
+    box-shadow: 0 0 20px 0 rgb(151, 151, 151);
+    width: 300px;
+    border-radius: 12px;
+    padding: 30px 5px;
+}
+
+.card-img img {
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+.box {
+    border: .5px solid rgb(202, 198, 198);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 8px;
+    font-size:12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.type {
+    border-left: .5px solid rgb(202, 198, 198);
+    border-right: .5px solid rgb(202, 198, 198);
+    padding: 0 20px;
+}
+
+
+.card-details {
+    font-size:20px ;
+}
+
+.card-details span{
+    font-size:20px ;
+    color: red;
+    text-decoration: line-through;
+}
+
+.design {
+    display: flex;
+    justify-content: space-between;
 }
