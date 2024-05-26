@@ -289,3 +289,22 @@ color: #212529;
     display: flex;
     justify-content: space-between;
 }
+
+/* information section */
+.information {
+    background-color: #fcece9;
+}
+
+.students {
+    color: #dd4a2a;
+}
+
+.information button {
+    background-color: #dd4a2a;
+    color: white;
+    height: 35px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
