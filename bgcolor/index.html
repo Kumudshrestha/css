@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #background {
+            height: 100vh;
+            width: 100vW;
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btns {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btns button{
+            padding: 8px 16px;
+        }
+
+
+    </style>
+    <div id="background">
+       <h1>Background Color Changer</h1>
+       <div class="btns">
+        <button onclick="changecolor('red')">Red</button>
+        <button onclick="changecolor('green')">Green</button>
+        <button onclick="changecolor('blue')">Blue</button>
+        <button onclick="randomColorGenerator()">Random</button>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
